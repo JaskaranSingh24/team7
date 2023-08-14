@@ -1,0 +1,47 @@
+body {
+    border-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+.rinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0px 0px 75px 0px;
+}
+
+.team7pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.team7pics div {
+    width: 150px;
+    height: 200px;
+    margin: 5px 20px 0px 20px;
+}
+
+.team7pics img {
+    margin-top: 25px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+

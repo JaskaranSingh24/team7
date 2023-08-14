@@ -1,0 +1,27 @@
+body {
+    border-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.bottom-navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin-logo {
+    font-size: 12px;
+}
